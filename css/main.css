@@ -751,11 +751,7 @@ p {
 
 .mission {
   padding-bottom: 94px;
-}
-@media screen and (min-width: 480px) {
-  .mission {
-    display: none;
-  }
+  display: none;
 }
 @media screen and (min-width: 768px) {
   .mission {
