@@ -1,0 +1,37 @@
+.header {
+    @include tablet{
+        border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #ECECEC;
+    }
+
+    @include desktop{
+        border-bottom-width: 1px;
+            border-bottom-style: solid;
+            border-bottom-color: #ECECEC;
+    }
+}
+
+.header__container {
+      display: flex;
+    align-items: center;
+}
+
+.header__menu-button{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    display: block;
+    height: 40px;
+    margin-left: auto;
+
+    @include tablet{
+        display: none;
+    }
+    @include desktop{
+        display: none;
+    }
+}
+
+
+
