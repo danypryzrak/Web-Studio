@@ -79,7 +79,7 @@ font-size: 40px;
 
         @include mobile{
             font-size: 24px;
-        line-height: calc(28/24);
+            line-height: calc(28/24);
         }
 }
 
